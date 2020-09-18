@@ -14,8 +14,8 @@ class Dog
   end 
   
   def self.print_all
-    @all.each {|dog| puts :name}
-    dog
+    @all.each {|name| puts name }
+    name
   end 
   
   def self.clear_all
