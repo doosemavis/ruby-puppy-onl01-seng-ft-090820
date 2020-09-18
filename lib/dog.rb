@@ -14,7 +14,7 @@ class Dog
   end 
   
   def self.print_all
-    puts @all.print 
+    puts @all.print_all 
   end 
   
   def self.clear_all
