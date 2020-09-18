@@ -18,7 +18,7 @@ class Dog
   end 
   
   def self.clear_all
-    puts @@all
+    puts @@all.clear
   end 
   
 end 
